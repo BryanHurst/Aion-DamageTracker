@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\img\bar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DamageDone" xml:space="preserve">
+    <value>Damage Done</value>
+  </data>
+  <data name="FILTER_DIRECT_DAMAGE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*).</value>
+    <comment>All log entries have the time stamp of digits in the following groupings: 4/2/2 2/2/2 as in year/month/day hour/minute/second. This checks melee combat messages</comment>
+  </data>
+  <data name="FILTER_DIRECT_DAMAGE_SKILL" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;critical&gt;(Critical Hit!)*)(?&lt;who&gt;.*?)(| has) inflicted (?&lt;amount&gt;\d+(.\d{3})*) (|critical )damage on (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*).</value>
+    <comment>This checks skills that cause direct damage including melee styles</comment>
+  </data>
+  <data name="FILTER_DIRECT_HEALING" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP by using (?&lt;skill&gt;.*).</value>
+    <comment>This checks healing amounts (there are random heals that can be done through no skill because of stupid Aion grammar)</comment>
+  </data>
+  <data name="FILTER_DIRECT_HEALING_SKILL" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) recovered (?&lt;amount&gt;\d+(.\d{3})*) HP because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*).</value>
+    <comment>This checks healing done by skills</comment>
+  </data>
+  <data name="FILTER_DOT" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) received (?&lt;amount&gt;\d+(.\d{3})*) damage due to the effect of (?&lt;skill&gt;.*).</value>
+    <comment>This checks for damage received by DOT though not by who</comment>
+  </data>
+  <data name="FILTER_GROUP_DISBAND" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (You left the group|The group has been disbanded).</value>
+    <comment>This checks for when group no longer exists</comment>
+  </data>
+  <data name="FILTER_GROUP_MESSAGE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : \[charname:(?&lt;who&gt;\w+);0.0196 .*?\]: (?&lt;message&gt;.*)</value>
+    <comment>This filters all chat messages</comment>
+  </data>
+  <data name="FILTER_HOT_1" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;target&gt;.*?) is in the continuous HP recovery state because (?&lt;who&gt;.*?) used (?&lt;skill&gt;.*).</value>
+    <comment>This checks when a HOTis cast on somebody by someone else</comment>
+  </data>
+  <data name="FILTER_HOT_2" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : .*? restored (?&lt;amount&gt;\d+(.\d{3})*) of (?&lt;target&gt;.*?)'s HP by using (?&lt;skill&gt;.*).</value>
+    <comment>This checks for heal amount from a HOT</comment>
+  </data>
+  <data name="FILTER_PLAYER_JOIN_GROUP" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has joined your group.</value>
+    <comment>This checks for people joining the group</comment>
+  </data>
+  <data name="FILTER_PLAYER_KICKED" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) (has|have) been kicked out of (your|the) group.</value>
+    <comment>This checks for someone being kicked from the group</comment>
+  </data>
+  <data name="FILTER_PLAYER_LEFT_GROUP" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;\w+) has left your group.</value>
+    <comment>This checks for someone who leaves the group</comment>
+  </data>
+  <data name="FILTER_PLAYER_ONLINE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : You changed the connection status to Online.</value>
+    <comment>This checks your "online" status being changed</comment>
+  </data>
+  <data name="FILTER_SELF_MESSAGE" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) (?&lt;message&gt;.*)</value>
+    <comment>This filters all your sent chat messages</comment>
+  </data>
+  <data name="FILTER_SUMMON_1" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*?) to let it attack (.*).</value>
+    <comment>This checks for pets insta summoned for combat</comment>
+  </data>
+  <data name="FILTER_SUMMON_2" xml:space="preserve">
+    <value>(?&lt;time&gt;\d{4}.\d{2}.\d{2} \d{2}:\d{2}:\d{2}) : (?&lt;who&gt;.*?) summoned (?&lt;target&gt;.*?) by using (?&lt;skill&gt;.*).</value>
+    <comment>This checks for regula pets being summoned</comment>
+  </data>
+  <data name="HealingDone" xml:space="preserve">
+    <value>Healing Done</value>
+    <comment>This checks when an HOTis done</comment>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>You</value>
+    <comment>"You" in Chat.log file</comment>
+  </data>
+  <data name="BryanButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\img\BryanButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
